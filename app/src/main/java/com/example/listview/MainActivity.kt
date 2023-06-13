@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         personas.add("Ariadna Sofia Mosquera")
         personas.add("Andrés Felipe Quintero")
         personas.add("Juan Esteban Diaz")
+        personas.add("Maira Fernanda Osorio")
         //Crear el adaptador asociado al activity, con un layout predetermindado y con los datos
         val adaptador = ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,personas)
         //Al objeto ListView llamado listaPersonas asignarle como adapter el adaptador creado
